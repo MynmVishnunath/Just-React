@@ -1,0 +1,10 @@
+table{
+  border: none;
+  border-collapse: separate;
+  border-spacing: 20px;
+  width: 450px;
+}
+.field-name{
+  font-weight: 700;
+  width: 100px;
+}

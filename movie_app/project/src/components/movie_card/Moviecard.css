@@ -1,0 +1,35 @@
+.Movie_card{
+  width: 320px;
+  height: 300px;
+  border: 1px solid rgb(172, 170, 170);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+ justify-content: space-around;
+
+
+
+}
+
+.Movie_card .Movie_poster{
+  width: calc(320px - 3%);
+  height: 230px;
+  border: 1px solid rgb(123, 126, 123);
+  border-radius: 15px;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.Movie_poster img{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.link, .link:hover{
+  text-decoration: none;
+  color:initial;
+
+}
+
